@@ -13,16 +13,17 @@
   "author": "Karol Joniak",
   "license": "ISC",
   "dependencies": {
+    "node-sass": "9.0.0",
     "normalize-scss": "8.0.0"
   },
   "devDependencies": {
-    "@stylistic/stylelint-plugin": "^3.1.1",
-    "husky": "^9.1.6",
-    "lint-staged": "^15.2.10",
-    "stylelint": "^16.10.0",
-    "stylelint-config-sass-guidelines": "^12.1.0",
-    "stylelint-config-standard": "^36.0.1",
-    "stylelint-config-standard-scss": "^13.1.0"
+    "@stylistic/stylelint-plugin": "3.1.1",
+    "husky": "9.1.6",
+    "lint-staged": "15.2.10",
+    "stylelint": "16.10.0",
+    "stylelint-config-sass-guidelines": "12.1.0",
+    "stylelint-config-standard": "36.0.1",
+    "stylelint-config-standard-scss": "13.1.0"
   },
   "husky": {
     "hooks": {
