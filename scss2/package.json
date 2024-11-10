@@ -1,0 +1,35 @@
+{
+  "name": "@karoljoniak/uniblock",
+  "version": "1.0.0",
+  "description": "Reusable components package for web development",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "stylelint './**/*.scss'",
+    "lint:fix": "stylelint './**/*.scss' --fix",
+    "build": "node src/scripts/build.js"
+  },
+  "author": "Karol Joniak",
+  "license": "ISC",
+  "dependencies": {
+    "normalize-scss": "8.0.0"
+  },
+  "devDependencies": {
+    "@stylistic/stylelint-plugin": "^3.1.1",
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10",
+    "stylelint": "^16.10.0",
+    "stylelint-config-sass-guidelines": "^12.1.0",
+    "stylelint-config-standard": "^36.0.1",
+    "stylelint-config-standard-scss": "^13.1.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.scss": "npm run lint:fix"
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "extends": [
+        "stylelint-config-standard-scss",
+        "stylelint-config-sass-guidelines"
+    ],
+    "plugins": [
+		"@stylistic/stylelint-plugin"
+	],
+    "rules": {
+        "@stylistic/indentation": 2,
+        "@stylistic/string-quotes": "double"
+    }
+}
