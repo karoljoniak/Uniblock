@@ -1,0 +1,20 @@
+{
+  "name": "@karoljoniak/react",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "react": "18.3.1",
+    "rollup": "4.25.0",
+    "rollup-plugin-typescript2": "0.36.0",
+    "typescript": "5.6.3"
+  }
+}

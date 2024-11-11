@@ -1,0 +1,20 @@
+{
+  "name": "@karoljoniak/uniblock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "lerna run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lerna": "8.1.9"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "playgrounds/*"
+    ]
+  }
+}
